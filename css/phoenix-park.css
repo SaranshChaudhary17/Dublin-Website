@@ -1,0 +1,36 @@
+body {
+    background-color: #FDF6E3;
+    color: #2F4F4F;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: #66CCCC;
+    padding: 10px;
+}
+h1, h2, h3 {
+    color: #006666;
+}
+a {
+    color: #FF6F61;
+    text-decoration: none;
+}
+.feature-img {
+    width: 250px;
+    border: 2px solid #2E8B57;
+    margin: 10px;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+th, td {
+    border: 1px solid #006666;
+    padding: 8px;
+}
+th {
+    background-color: #2E8B57;
+    color: white;
+}
+footer {
+    margin-top: 20px;
+}
