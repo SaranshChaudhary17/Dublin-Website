@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dublin Guide - Home</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Dublin!</h1>
+        <nav>
+            <ul>
+                <li><a href="dublin-castle.html">Dublin Castle</a></li>
+                <li><a href="trinity-college.html">Trinity College</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="phoenix-park.html">Phoenix Park</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Plan Your Visit</h2>
+        <img src="images/dublin.avif" alt="Dublin Skyline" class="feature-img">
+        <p>Explore the best of Dublin with our guide!</p>
+
+        <!-- Fare Calculator -->
+        <section>
+            <h3>Fare Calculator</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name"><br><br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" placeholder="Enter your age"><br><br>
+            <button onclick="checkFare()">Calculate Fare</button>
+            <p id="fareOutput"></p>
+        </section>
+
+        <!-- Food Preference -->
+        <section>
+            <h3>Food Preference</h3>
+            <label for="foodName">Name:</label>
+            <input type="text" id="foodName" placeholder="Enter your name"><br><br>
+            <label for="cuisine">Cuisine:</label>
+            <input type="text" id="cuisine" placeholder="Enter cuisine"><br><br>
+            <button onclick="showCuisine()">Submit</button><br>
+            <textarea id="cuisineOutput" rows="4" cols="50"></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <p>Visit <a href="https://www.visitdublin.com">Visit Dublin</a> for more info.</p>
+    </footer>
+
+    <script src="javascript/index.js"></script>
+</body>
+</html>
