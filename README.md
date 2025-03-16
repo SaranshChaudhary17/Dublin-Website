@@ -9,10 +9,7 @@ Welcome to the **Dublin Guide Website**! This project is a simple HTML/CSS/JavaS
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Run](#how-to-run)
-- [Screenshots](#screenshots)
-- [Live Demo](#live-demo)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ---
 
